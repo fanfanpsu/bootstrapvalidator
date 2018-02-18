@@ -1,17 +1,43 @@
 {
-  "name": "bootstrapValidator",
-  "author": {
-    "name": "Nguyen Huu Phuoc <phuoc@huuphuoc.me>",
-    "url": "https://twitter.com/nghuuphuoc"
-  },
-  "homepage": "http://github.com/nghuuphuoc/bootstrapvalidator",
-  "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-uglify": "~0.2.4",
-    "grunt-contrib-concat": "~0.3.0",
-    "grunt-contrib-watch": "~0.5.3",
-    "grunt-contrib-cssmin": "~0.6.2",
-    "grunt-contrib-copy": "~0.4.1"
-  },
-  "version": "0.2.2-dev"
+    "name": "formvalidation",
+    "version": "0.6.2-dev",
+    "description": "The best jQuery plugin to validate form fields. Support Bootstrap, Foundation, Pure, SemanticUI, UIKit and custom frameworks",
+    "keywords": [
+        "jQuery",
+        "plugin",
+        "validate",
+        "validator",
+        "form",
+        "Bootstrap",
+        "Foundation",
+        "Pure",
+        "SemanticUI",
+        "UIKit"
+    ],
+    "author": {
+        "name": "Nguyen Huu Phuoc",
+        "email": "phuoc@huuphuoc.me",
+        "url": "https://twitter.com/nghuuphuoc"
+    },
+    "homepage": "http://formvalidation.io",
+    "bugs": {
+        "url": "https://github.com/formvalidation/formvalidation/issues",
+        "email": "phuoc@huuphuoc.me"
+    },
+    "license": "http://formvalidation.io/license/",
+    "main": "./dist/js/formValidation.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/formvalidation/formvalidation.git"
+    },
+    "devDependencies": {
+        "grunt": "latest",
+        "grunt-contrib-concat": "latest",
+        "grunt-contrib-copy": "latest",
+        "grunt-contrib-cssmin": "latest",
+        "grunt-contrib-jasmine": "latest",
+        "grunt-contrib-jshint": "latest",
+        "grunt-contrib-uglify": "latest",
+        "grunt-contrib-watch": "latest"
+    }
 }
